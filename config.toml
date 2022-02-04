@@ -1,9 +1,10 @@
 baseUrl="/"
+#baseURL = "https://www.clearedge3d.com/support/collagesite-qa/"
 #Setting the base url helped when trying to make the site in the public folder browsable, but we no longer are going that route. 
 title = "Knowledge Base"
 enableRobotsTXT = true
 # do the following options help httrack work? If they do, they will stay. 
-#relativeURLs = true
+relativeURLs = true
 #uglyURLs = true
 
 #MKR 12-15-2021: The hope is, getting rid of the rss feeds will placate httrack
